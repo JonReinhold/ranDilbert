@@ -1,4 +1,5 @@
 import random 
+import webbrowser
 
 baseURL = "http://dilbert.com/strip/"
 hyphen = "-"
@@ -18,4 +19,4 @@ randDay = str(random.randint(firstDay, lastDay))
 
 fullURL = baseURL + randYear + randMonth + randDay
 
-print(fullURL)
+webbrowser.open_new(fullURL)
