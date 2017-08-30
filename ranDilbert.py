@@ -2,6 +2,7 @@ import random
 import webbrowser
 
 baseURL = "http://dilbert.com/strip/"
+#...
 hyphen = "-"
 
 #rounded for ease of use and lack of interest in the 1980s
