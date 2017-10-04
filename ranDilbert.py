@@ -11,7 +11,8 @@ firstMonth = 1
 firstDay = 1
 
 lastYear = 2016
-lastMonth = 12
+#december just isn't funny
+lastMonth = 11
 lastDay = 28
 
 randYear = str(random.randint(firstYear, lastYear)) + hyphen
