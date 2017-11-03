@@ -1,5 +1,7 @@
 import random 
 import webbrowser
+import ctypes
+
 
 baseURL = "http://dilbert.com/strip/"
 hyphen = "-"
@@ -20,3 +22,6 @@ randDay = str(random.randint(firstDay, lastDay))
 fullURL = baseURL + randYear + randMonth + randDay
 
 webbrowser.open_new(fullURL)
+
+SPI_SETDESKTOPWALLPAPER=20
+ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKTOPWALLPAPER, 0,"C:\\Users\\Admin\\Desktop\\CODE\\P\\randilbert\\image.jpg", 3)
