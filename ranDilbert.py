@@ -28,4 +28,4 @@ fullURL = baseURL + randYear + randMonth + randDay
 #webbrowser.open_new(fullURL)
 
 SPI_SETDESKTOPWALLPAPER=20
-ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKTOPWALLPAPER, 0,"C:\\Users\\Admin\\Desktop\\CODE\\P\\randilbert\\image.jpg", 3)
+ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKTOPWALLPAPER, 0,"C:\\Users\path...", 3)
