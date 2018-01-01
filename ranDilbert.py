@@ -1,5 +1,5 @@
 import random 
-#import webbrowser
+##import webbrowser
 import ctypes
 import os
 import urllib
@@ -25,7 +25,7 @@ randDay = str(random.randint(firstDay, lastDay))
 fullURL = baseURL + randYear + randMonth + randDay
 
 #to open the webpage of the image
-#webbrowser.open_new(fullURL)
+##webbrowser.open_new(fullURL)
 
 SPI_SETDESKTOPWALLPAPER=20
 ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKTOPWALLPAPER, 0,"C:\\Users\path...", 3)
